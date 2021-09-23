@@ -14,18 +14,6 @@ def linear_search(array, n):
             return True
     return False
 
-# Linear search using recursion 
-def linear_search_recursive(array, n):
-    if len(array)==0:
-        return False
-    else:
-        res = linear_search_recursive(array[1:], n)
-        if array[0] == n:
-            return True
-        return res
-    return False 
-
-print(linear_search_recursive(list,80))
 
 # Binary Search
 def binary_search(array, n):
