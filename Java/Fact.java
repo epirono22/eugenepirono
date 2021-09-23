@@ -1,5 +1,5 @@
 public class Fact {
-
+    
 	// Computing factorial function with recursion
 	public static int fact_rec(int n) {
 		
@@ -28,6 +28,12 @@ public class Fact {
 		// String enclosed with " " Double quote
 		System.out.println("fact_rec: " + fact_rec(10) );
 		System.out.println("fact_loop: " + fact_loop(10) );
-		
 	}
+
+
+
+
+
+
+
 }
